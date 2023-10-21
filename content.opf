@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookId" version="2.0">
+
+
+
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="bookId">urn:uuid:9bfb698f-dfa3-45ca-bea4-d0fbc2ead4f3</dc:identifier>
+    <dc:language>zh</dc:language>
+    <dc:title>书名:堕落的王国</dc:title>
+    <dc:creator >frozen</dc:creator>
+    <meta content="cover-image" name="cover-name"/>
+  </metadata>
+
+  <manifest>
+    <item id="ncx" href="toc.ncx"  media-type="application/x-dtbncx+xml"/>
+    <item id="cover-image" href="images/39655.jpg"  media-type="image/jpeg"/>
+    <item id="main" href="page/cover.html" media-type="application/xhtml+xml"/>
+    <item id="id99" href="page/c1.html" media-type="application/xhtml+xml"/>
+  </manifest>
+
+  <spine toc="ncx">
+    <itemref idref="main"/>
+    <itemref idref="id99"/>
+  </spine>
+
+</package>

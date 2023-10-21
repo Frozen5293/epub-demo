@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/">
+
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:9bfb698e-dfa3-45ca-bea4-d0fbc2ead4f3" />
+    <meta name="dtb:depth" content="5" />
+    <meta name="dtb:generator" content="frozen"/>
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+
+  <docTitle>
+    <text>ncx文档标题</text>
+  </docTitle>
+
+  <navMap>
+    <navPoint id="num_1" playOrder="1" class="chapter">
+      <navLabel>
+        <text>封 面</text>
+      </navLabel>
+      <content src="text/cover.html"/>
+    </navPoint>
+    <navPoint id="chapter1" playOrder="1">
+      <navLabel>
+        <text>chapter1name</text>
+      </navLabel>
+      <content src="page/c1.html"/>
+      <navPoint id="navPoint-2" playOrder="1">
+        <navLabel>
+          <text>subname</text>
+        </navLabel>
+        <content src="page/c1.html"/>
+      </navPoint>
+    </navPoint>
+
+  </navMap>
+
+</ncx>
